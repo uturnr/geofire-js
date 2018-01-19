@@ -27,7 +27,7 @@
     });
   });
 
-  // Once all the fish are in GeoFire, log a message that the user can now move fish around
+  // Once all the fish are in GeoFire, log a message that the GeoQuery is being created
   RSVP.allSettled(promises).then(function() {
     log("*** Creating GeoQuery ***");
     // Create a GeoQuery centered at fish2
